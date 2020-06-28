@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
     attributes_values.each do |names, description|
       if pigeon_list[name] == nil 
         pigeon_list[name] = {}
+      end
         if pigeon_list[attributes] == nil
           pigeon_list[attributes] = []
       end

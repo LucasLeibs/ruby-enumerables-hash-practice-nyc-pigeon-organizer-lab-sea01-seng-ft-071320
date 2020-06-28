@@ -7,8 +7,9 @@ def nyc_pigeon_organizer(data)
         if pigeon_list[attributes] == nil
           pigeon_list[attributes] = []
       end
+      pigeon_list[name][attributes]push.()
     end
   end
 end
-        
+       
 end
